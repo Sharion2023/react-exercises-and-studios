@@ -1,7 +1,7 @@
 const RecipeAuthor = () => {
-   let authorLink = "";
-   let authorPhoto = "";
-   let authorName = "";
+   let authorLink = "https://www.loveandlemons.com/broccoli-salad/";
+   let authorPhoto = "https://cdn.loveandlemons.com/wp-content/uploads/2023/01/IMG_41499-layers.jpg";
+   let authorName = "Jeanine";
 
    return (
       <div>
@@ -15,7 +15,11 @@ const RecipeAuthor = () => {
 }
 
 const RecipeIngredients = () => {
-   const ingredients = [];
+   const ingredients = ["1 pound broccoli crowns",
+      "3 tablespoons extra-virgin olive oil",
+      "3 tablespoons mayonnaise",
+      "1½ tablespoons apple cider vinegar",
+      "2 teaspoons Dijon mustard"];
    return(
       <div>
          <h3>Recipe Ingredients</h3>
@@ -47,7 +51,7 @@ const RecipeDescription = () => {
 
 const RecipePhoto = () => {
    return (
-      <img src="" alt="" className="imageUpdates"/>
+      <img src="https://cdn.loveandlemons.com/wp-content/uploads/2019/05/broccoli-salad-683x1024.jpg" alt="Broccoli salad" className="imageUpdates"/>
    );
 }
 
